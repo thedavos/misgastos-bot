@@ -1,0 +1,25 @@
+{
+  "name": "misgastos-bot",
+  "version": "1.0.0",
+  "description": "Bot personal para categorizar gastos automáticamente",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "deploy": "pnpm -r deploy",
+    "test": "pnpm -r test",
+    "cf-typegen": "pnpm -r cf-typegen"
+  },
+  "dependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.8.19",
+    "typescript": "^5.5.2",
+    "vitest": "~3.2.0",
+    "wrangler": "^4.43.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  },
+  "keywords": [],
+  "author": "davidvargas.d45@gmail.com",
+  "license": "MIT",
+  "packageManager": "pnpm@10.16.1"
+}
